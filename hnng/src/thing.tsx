@@ -1,1 +1,1 @@
-export const makeThingName = () => "thissg!";
+export const makeThingName = () => "thing!";
