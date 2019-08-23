@@ -1,5 +1,5 @@
 {
-  "name": "hnng",
+  "name": "waat",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,5 @@
     "typescript": "^3.5.3"
   },
   "dependencies": {
-    "waat": "workspace:*"
   }
 }
