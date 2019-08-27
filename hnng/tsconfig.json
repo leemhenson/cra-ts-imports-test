@@ -4,6 +4,7 @@
     "baseUrl": ".",
     "declaration": true,
     "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
     "module": "commonjs",
     "moduleResolution": "node",
     "noEmit": false,
