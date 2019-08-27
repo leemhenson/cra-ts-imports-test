@@ -1,3 +1,7 @@
-import { makeWaat } from "waat/src/thing";
+import { DooDaa, makeWaat } from "waat/src/thing";
 
-export const makeHnng = () => `hnng ${makeWaat()}!`;
+const doo1: DooDaa = {
+  name: "doodaa1"
+};
+
+export const makeHnng = () => `hnng ${makeWaat()} ${doo1.name}!`;

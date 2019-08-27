@@ -50,6 +50,13 @@ const cssModuleRegex = /\.module\.css$/;
 const sassRegex = /\.(scss|sass)$/;
 const sassModuleRegex = /\.module\.(scss|sass)$/;
 
+const mypaths1 = [
+  path.join(paths.appPath, "../arrgh/src"),
+  path.join(paths.appPath, "../hnng/src"),
+  path.join(paths.appPath, "../waat/src"),
+];
+
+
 // This is the production and development configuration.
 // It is focused on developer experience, fast rebuilds, and a minimal bundle.
 module.exports = function(webpackEnv) {
@@ -380,6 +387,14 @@ module.exports = function(webpackEnv) {
                 cacheDirectory: true,
                 cacheCompression: isEnvProduction,
                 compact: isEnvProduction,
+              },
+            },
+            {
+              test: /\.(js|mjs|jsx|ts|tsx)$/,
+              include: mypaths1,
+              loader: require.resolve('ts-loader'),
+              options: {
+                reportFiles: true
               },
             },
             // Process any JS outside of the app with Babel.

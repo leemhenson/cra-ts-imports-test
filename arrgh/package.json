@@ -153,5 +153,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "ts-loader": "^6.0.4"
   }
 }

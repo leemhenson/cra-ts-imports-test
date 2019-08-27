@@ -2,4 +2,4 @@ export interface DooDaa {
   name: string
 }
 
-export const makeWaat = () => "waat";
+export const makeWaat = () => "waat2";
