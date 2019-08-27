@@ -14,10 +14,10 @@
     "typescript": "3.5.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "pnpx craco start",
+    "build": "pnpx craco build",
+    "test": "pnpx craco test",
+    "eject": "pnpx craco eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,5 +33,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^5.3.0",
+    "ts-loader": "^6.0.4"
   }
 }
